@@ -1,0 +1,24 @@
+{
+  "name": "wechat-mp-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "server": "nodemon app"
+  },
+  "type": "module",
+  "author": "Toomata",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
